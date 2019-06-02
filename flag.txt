@@ -1,0 +1,2 @@
+This is a dummy file representing infra being up
+code should be updated to check infra status by call to Grafana API

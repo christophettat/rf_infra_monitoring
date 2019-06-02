@@ -1,1 +1,1 @@
-robot -x xout.xml --outputdir ./Results ./TestCases
+robot --listener ./PythonHelpers/ConditionnalStart.py --outputdir ./Results ./TestCases

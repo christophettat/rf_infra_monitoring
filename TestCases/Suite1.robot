@@ -1,7 +1,9 @@
+***Settings***
+Library 	OperatingSystem
+
 *** Test Cases ***
 My Test 1
-	sleep		7
-	Log		TOTO
-My Test 2
-	sleep		10
-	Log		Toto
+	Log		test should starts as flag.txt is present on disk
+	Remove File  flag.txt
+	Log		unstable flag should have been added to the tests results	
+

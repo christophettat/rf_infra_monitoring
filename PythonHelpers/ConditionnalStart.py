@@ -1,8 +1,9 @@
 import os
 import time
 
+ROBOT_LISTENER_API_VERSION = 3
 class ResultModifier(object):
-    ROBOT_LISTENER_API_VERSION = 3
+
 
     def __init__(self, file='flag.txt'):
         self.flag = file
